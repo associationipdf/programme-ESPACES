@@ -1,0 +1,288 @@
+/* Positionnement général */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Définition des styles pour le header ---------------------------------------------------------------------------------------------------------*/
+
+header {
+  background-color: #fff; /* Couleur de fond */
+  padding: 10px; /* Espacement intérieur */
+  text-align: center; /* Alignement du contenu */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+header img {
+  max-width: 90%; /* Image responsive */
+}
+
+
+/* Définition des styles pour le menu --------------------------------------------------------------------------------------------------------- */
+
+nav {
+  float: left;
+  width: 90%;
+
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+
+/* Définition des styles pour la section "Présentation d'IPDF" -------------------------------------------------------------------------*/
+.presentation-IPDF {
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+  margin-left: 6%;
+  text-align: justify;
+}
+
+.presentation-IPDF img {
+  max-width: 100%;
+}
+
+
+/* Définition des styles pour la section "photos" ---------------------------------------------------------------------------------------*/
+
+.photos {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+}
+.photos img {
+  max-width: 100%;
+}
+
+
+/* Définition des styles pour la section "Objectifs" ---------------------------------------------------------------------------------------*/
+
+.objectifs-programme {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  border-width: 1px;
+  border-style: solid;
+}
+.objectifs-programme h3 {
+  margin-left: 10%;
+}
+
+.objectifs-programme p {
+  margin-left: 10%;
+}
+
+.objectifs-programme li {
+  margin-right: 3%;
+}
+
+/* Style pour le bouton "télécharger" */
+.télécharger {
+  display: block;
+  margin-right:20px;
+  margin-bottom:10px;
+  float: right;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0077c2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Définition des styles pour la section "Soutenir le programme" ----------------------------------------------------------------------------*/
+
+.support-section {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  width: 20%;
+}
+
+/* Style pour le bouton "Faire un don" */
+.donate-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Définition des styles pour la section "documentation" ---------------------------------------------------------------------------------------*/
+
+.documentation {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  border-width: 1px;
+  border-style: solid;
+}
+.documentation h3 {
+  margin-left: 10%;
+}
+
+.documentation li {
+  margin-right: 3%;
+}
+
+/* Définition des styles pour la section "médias" ---------------------------------------------------------------------------------------*/
+
+.medias {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  border-width: 1px;
+  border-style: solid;
+}
+.medias h3 {
+  margin-left: 10%;
+}
+
+.medias li {
+  margin-right: 3%;
+}
+
+/* Styling for the activities section ----------------------------------------------------------------------------------------------------- */
+
+.activites {
+  float: left;
+  width: 65%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+
+.activite {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.activite img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.activite details summary {
+  font-size: 1 rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.activite p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Styling for the footer ----------------------------------------------------------------------------------------------------- */
+footer {
+  float: left;
+  width: 90%;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contactez-nous {
+  border-right: 1px solid orange;
+  padding-right: 20px;
+padding-left: 10px;
+}
+.contactez-nous p {
+  font-size: 11px;
+}
+
+.suivez-nous {
+  width: 30%;
+}
+.suivez-nous p {
+  font-size: 11px;
+}
+
+
+/* Définition des styles pour la section "Présentation_don-------------------------------------------------------------------------*/
+.presentation_don {
+  float: left;
+  width: 40%;
+  margin-right: 0%;
+  margin-left: 8%;
+  text-align: justify;
+}
+
+.presentation_don img {
+  max-width: 100%;
+}
+
+/* Définition des styles pour la section "formulaire_don" ---------------------------------------------------------------------------------------*/
+
+.formulaire_don {
+  float: right;
+  width: 40%;
+  height: 1600px;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
