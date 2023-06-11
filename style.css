@@ -26,31 +26,31 @@ nav {
   width: 90%;
 
 }
-
-nav ul {
-  list-style: none; /* Enlever les puces */
-  margin: 0; /* Supprimer les marges */
-  padding: 0; /* Supprimer les espacements */
-  display: flex; /* Affichage en ligne */
-  justify-content: space-between; /* Espacement entre les éléments */
-  align-items: center; /* Alignement vertical */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav ul li {
-  margin-left: 20px; /* Espacement entre les éléments */
+.menu li {
+  display: inline-block;
 }
 
-nav ul li a {
-  text-decoration: none; /* Enlever les soulignements */
-  color: #333; /* Couleur du texte */
-  font-weight: bold; /* Police en gras */
-  font-size: 17px; /* Taille de la police */
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-nav ul li:hover a {
-  color: #0077c2; /* Couleur du texte au survol */
+.menu li a:hover {
+  background-color: #ddd;
 }
-
 
 /* Définition des styles pour la section "Présentation du programme" -------------------------------------------------------------------------*/
 .presentation-programme {
@@ -58,10 +58,20 @@ nav ul li:hover a {
   width: 60%;
   margin-right: 5%;
   margin-left: 6%;
+  text-align: justify;
 }
 
 .presentation-programme img {
   max-width: 100%;
+}
+
+
+.presentation-programme figure figcaption {
+  font-style: italic; /* Applique un style d'écriture en italique */
+  font-size: 12px; /* Définit la taille de la police */
+  color: #555; /* Définit la couleur du texte */
+  margin-top: 5px; /* Ajoute une marge en haut de la légende */
+  text-align: center; /* Centre le texte horizontalement */
 }
 
 
@@ -108,64 +118,37 @@ nav ul li:hover a {
   cursor: pointer;
 }
 
-/* Définition des styles pour la section "documentation" ---------------------------------------------------------------------------------------*/
 
-.documentation {
-  float: right;
-  width: 20%;
-  margin-top: 3%;
-  margin-right: 6%;
-  border-width: 1px;
-  border-style: solid;
-}
-.documentation h3 {
-  margin-left: 10%;
-}
 
-.documentation li {
-  margin-right: 3%;
-}
-
-/* Styling for the activities section ----------------------------------------------------------------------------------------------------- */
-
-.activites {
+/* Styling for the footer ----------------------------------------------------------------------------------------------------- */
+footer {
   float: left;
-  width: 80%;
+  width: 90%;
   margin-right: 5%;
   margin-left: 5%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 30px;
-  margin-top: 50px;
-}
-
-
-.activite {
+  background-color: #f2f2f2;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.activite img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+.contactez-nous {
+  border-right: 1px solid orange;
+  padding-right: 20px;
+padding-left: 10px;
+}
+.contactez-nous p {
+  font-size: 11px;
 }
 
-.activite h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+.suivez-nous {
+  width: 30%;
+}
+.suivez-nous p {
+  font-size: 11px;
 }
 
-.activite p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
 
 
 
