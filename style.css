@@ -1,0 +1,154 @@
+/* Positionnement général */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Définition des styles pour le header ---------------------------------------------------------------------------------------------------------*/
+
+header {
+  background-color: #fff; /* Couleur de fond */
+  padding: 10px; /* Espacement intérieur */
+  text-align: center; /* Alignement du contenu */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+header img {
+  max-width: 90%; /* Image responsive */
+}
+
+
+/* Définition des styles pour le menu --------------------------------------------------------------------------------------------------------- */
+nav {
+  float: left;
+  width: 90%;
+
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+/* Définition des styles pour la section "Présentation du programme" -------------------------------------------------------------------------*/
+.presentation-programme {
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+  margin-left: 6%;
+  text-align: justify;
+}
+
+.presentation-programme img {
+  max-width: 100%;
+}
+
+
+.presentation-programme figure figcaption {
+  font-style: italic; /* Applique un style d'écriture en italique */
+  font-size: 12px; /* Définit la taille de la police */
+  color: #555; /* Définit la couleur du texte */
+  margin-top: 5px; /* Ajoute une marge en haut de la légende */
+  text-align: center; /* Centre le texte horizontalement */
+}
+
+
+/* Définition des styles pour la section "Objectifs" ---------------------------------------------------------------------------------------*/
+
+.objectifs-programme {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  border-width: 1px;
+  border-style: solid;
+}
+.objectifs-programme h3 {
+  margin-left: 10%;
+}
+
+.objectifs-programme li {
+  margin-right: 3%;
+}
+
+
+/* Définition des styles pour la section "Soutenir le programme" ----------------------------------------------------------------------------*/
+
+.support-section {
+  float: right;
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 6%;
+  width: 20%;
+}
+
+/* Style pour le bouton "Faire un don" */
+.donate-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Styling for the footer ----------------------------------------------------------------------------------------------------- */
+footer {
+  float: left;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contactez-nous {
+  border-right: 1px solid orange;
+  padding-right: 20px;
+padding-left: 10px;
+}
+.contactez-nous p {
+  font-size: 11px;
+}
+
+.suivez-nous {
+  width: 30%;
+}
+.suivez-nous p {
+  font-size: 11px;
+}
+
+
+
+
