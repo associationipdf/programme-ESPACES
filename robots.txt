@@ -1,4 +1,11 @@
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://associationipdf.github.io/programme-ESPACES/sitemap.xml
+
+Allow: /programme-ESPACES/$
+Allow: /programme-ESPACES/pages/autonomisation.html$
+Allow: /programme-ESPACES/pages/aide-et-accompagnement.html$
+Allow: /programme-ESPACES/pages/entraide.html$
+Allow: /programme-ESPACES/pages/espaces-publics.html$
+Allow: /programme-ESPACES/pages/presentationIPDF.html$
